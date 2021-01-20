@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.header {
+  width: 100%;
+  background-color: #26d0c9;
+  overflow: hidden;
+}
+.header .logo {
+  float: left;
+  font-size: 36px;
+  color: #fff;
+}
+.header .navigation {
+  float: right;
+  margin-top: 40px;
+}
+.header .navigation li {
+  float: left;
+  margin-left: 18px;
+  font-size: 18px;
+  display: block;
+}
+.header .navigation li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .navigation li a:hover {
+  color: rgb(255, 0, 170);
+  border-bottom: 2px solid rgb(255, 0, 170);
+}
+.contact-form {
+  width: 100%;
+  padding: 50px 80px;
+  overflow: hidden;
+  padding-bottom: 50px;
+  background-color: #ebe8e8;
+}
+.contact-form h1 {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 32px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contact-form p {
+  font-size: 18px;
+}
+input {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+input:focus {
+  outline: none !important;
+  border-color: #4ba0fa;
+  box-shadow: 0 0 10px #1264bd;
+}
+.contact-submit {
+  width: 220px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  background-color: #1c5777;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-submit:hover {
+  background-color: #0e77af;
+}
+.footer {
+  width: 100%;
+  background-color: #26d0c9;
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+.contents {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
+.contents p {
+  width: 800px;
+  text-align: center;
+  padding-top: 40px;
+  overflow: hidden;
+  height: 50px;
+  font-size: 12px;
+  margin-bottom: 80px;
+  font-size: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: rgb(35, 150, 158);
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.7);
+}
+.contents p:hover {
+  box-shadow: 6px 6px 20px rgba(27, 213, 219, 0.7);
+}
+.content {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 300px;
+}
+.content .content-items h3 {
+  color: #fff;
+}
+.content .content-items {
+  width: 150px;
+  height: 150px;
+  font-size: 14px;
+  padding: 20px 20px;
+  font-weight: 500;
+  text-align: center;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 2rem;
+  background-color: rgb(35, 150, 158);
+  margin-left: 50px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.7);
+}
+.content .content-items:hover {
+  box-shadow: 6px 6px 20px rgba(27, 213, 219, 0.7);
+}
+.contact-form .contact-item {
+  color: rgb(247, 247, 247);
+  padding: 20px 20px;
+  width: 450px;
+  height: 420px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.7);
+  background-color: rgb(35, 150, 158);
+  border: 1px solid #e5e5e5;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th,
+td,
+ul {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: rgb(35, 150, 158);
+  color: white;
+}
+.admin {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(247, 247, 247);
+}
+.admin .admin-content {
+  width: 200px;
+  margin-bottom: 80px;
+  height: 200px;
+  background-color: #26d0c9;
+  border: 1px solid #e5e5e5;
+  margin: 50px 450px;
+  border-radius: 10px;
+  text-align: center;
+}
+.admin-submit button {
+  float: left;
+  width: 205px;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  background-color: #1c5777;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.admin-submit button:hover {
+  background-color: #015886;
+  box-shadow: 6px 6px 20px rgba(27, 213, 219, 0.7);
+}
